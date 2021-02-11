@@ -34,8 +34,17 @@
     h4 {
       margin: 0;
     }
+    
   </style> <!-- apply the blue color for all a tags -->
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "59c7a79c-43f2-4ef4-b123-986397456444",
+    });
+  });
+</script>
 
 </head>
 <!---------------------------------------------------------------->
