@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-  <link rel="icon" href="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico"> <!--icon!-->
+  <link rel="icon" href="https://programmer1017.github.io/JavaScript.png"> <!--icon!-->
 
 <head>
   <title>HTML</title>
@@ -11,7 +11,7 @@
   <!--CSS-->
   <style>
     a {
-      color:black;
+
       text-decoration: underline;
     }
     h1 {
@@ -20,7 +20,7 @@
     }
   
     ol {
-      border-right: 1px solid gray;
+      border-right: 1px solid;
       width: 100px;
       margin: 5px;
       padding: 33px;
@@ -45,7 +45,17 @@
 
 
 <body>
-  <h1><a href="https://programmer1017.github.io/web-intro/index" style="text-decoration: none;">WEB</a></h1>
+  <h1><a href="https://programmer1017.github.io/web-intro/index" style="color:blue; text-decoration:none">WEB</a></h1>
+
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+  ">
+
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+  ">
 
   <div id="grid">
     <ol>
